@@ -92,7 +92,7 @@ In order to facilitate https access from anonymous sources inside and outside th
     ```
 1. Click on **Save**
 
-1. Next, click on **CORS configruation** and replace the default XML with the following XML in the **CORS configuration editor**.
+1. Next, click on **CORS configuration** and replace the default XML with the following XML in the **CORS configuration editor**.
     ```
     <?xml version="1.0" encoding="UTF-8"?>
     <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
@@ -390,7 +390,7 @@ Use the AWS Lambda console to add a putItem trigger from the `vod-watchfolder-fi
 
 You can use your own video or use the test.mp4 video included in this folder to test the workflow. 
 
-In the next module of this lab, we will setup automated monitoring of jobs created using the watchfolder workflow.  Until then, you can monitor the the MediaConvert console.  
+In the next module of this lab, we will setup automated monitoring of jobs created using the watchfolder workflow.  Until then, you can monitor the MediaConvert console.  
 
 1. Open the S3 console overview page for the watchfolder S3 bucket you created earlier.
 
